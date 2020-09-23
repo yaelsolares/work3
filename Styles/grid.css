@@ -1,0 +1,23 @@
+/*mediaqueries*/
+@media (max-width: 600px) {
+    nav{
+        flex-direction: column;
+    }
+    .nav-bar{
+        margin: 10px 0;
+    }
+    .nav-button{
+    background: rgba(37, 118, 143, 0.685);
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px;
+    color:  #000000;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    border: 2px solid #ffffff
+    }
+    .desaparece{
+        display: none;
+    }
+}
